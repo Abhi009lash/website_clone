@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+p,
+li {
+    font-family: "Roboto", serif;
+}
+p{
+    line-height: 30px;
+}
+.brochure-fixed {
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    right: -67px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #034045 !important;
+    font-size: 15px;
+    font-weight: 500;
+    transform: rotate(90deg);
+    border-radius: 5px;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+.header-call a {
+    border: 3px solid #034045;
+    border-radius: 30px;
+    background-color: white;
+    color: #034045;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.header-call  {
+    transition: transform 0.3s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.nav-item a {
+    color: #034045;
+    font-weight: 600;
+    font-size: 15px;
+
+    &:hover {
+        color: #034045;
+    }
+}
+
+.heading {
+    color: #034045;
+}
+
+
+
+.get {
+    padding: 0px 50px;
+    background-color: #034045;
+
+}
+.get label{
+    color: white !important;
+}
+
+.submit-btn {
+    border: 1px solid transparent;
+    background-color: white !important;
+    color: #034045 !important;
+    padding: 5px 20px !important;
+}
+.nav-pills .nav-link.active{
+    background-color: #034045 !important;
+}
+.nav-pills .nav-link.active {
+    color:white;
+}
+.nav-pills .nav-link{
+    color:#034045;
+    
+    &:hover{
+        color: #034045;
+    }
+}
+.master-btn a{
+    text-decoration: none;
+    color:white;
+    background-color: #48b548;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: white !important;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.floorplan-imgs img{
+    border: 5px solid #034045;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px !important;
+    padding: 15px;
+}
+
+#little_thingContent .owl-carousel .floorplan-imgs img {
+    transform: scale(0.7) !important;
+}
+
+#little_thingContent .owl-carousel .owl-item.center .floorplan-imgs img {
+    transform: scale(1) !important;
+    object-fit: cover;
+}
+.img-txt {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#034045;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .owl-carousel .owl-item.center .floorplan-imgs .img-txt {
+       display: block;
+  }
+
+ .owl-carousel .floorplan-imgs .img-txt {
+       display: none;
+  }
+.masterplan-img{
+    height: 500px !important;
+    border: 15px solid #48b548;
+}
+.section_green_color {
+    background-color: #034045;
+}
+
+.section-space {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.homes_heaven_items {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.type_title {
+    background-color: #477547;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.home_content {
+    background: #fff;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.home_content h5 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.page_btn {
+    background-color: #477547;
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.amen-items {
+    border: 1px solid transparent;
+    background-color: white;
+    height: 150px;
+}
+
+.amen-items-alt {
+    border: 1px solid transparent;
+    background-color: #034045;
+    color: white;
+    height: 160px;
+}
+
+.amen-img {
+    height: 90px !important;
+}
+
+#resort .col-lg-2 {
+    padding: 0 !important;
+}
+
+.villas-img {
+    border-radius: 20px;
+    height: 200px !important;
+}
+
+.owl-carousel .item {
+    background-color: #03404550;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.owl-nav button span {
+    line-height: 8px;
+    height: 50px;
+    display: block;
+    font-size: 37px;
+    padding: 16px 20px;
+    border-radius: 100%;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+}
+
+.owl-nav button span:hover {
+    background-color: #034045;
+    color: white !important;
+}
+
+
+
+.gallery-img1 {
+    height: 300px !important;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.gallery-img2 {
+    height: 200px !important;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.gallery-img3 {
+    height: 250px !important;
+    width: 100%;
+    border-radius: 20px;
+}
+.accordion-button:focus {
+    background-color: #034045;
+    color: white;
+}
+.accordion-button{
+    background-color: #034045 !important;
+    color: white !important;
+}
+
+.accordion-body {
+    
+    font-size: 18px;
+}
+.accordion-button:not(.collapsed)::after{
+    filter: invert(1) !important;
+}
+.accordion-button::after{
+    filter: invert(1) !important;
+}
+.specific{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)), 
+    url('./images/specification-bg.jpg') no-repeat center center / cover !important;
+}
+footer {
+    background-color: #0a0a0a;
+    padding: 77px 0 52px 0;
+}
+
+footer .footer-top .links ul li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 3px;
+    display: block;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links
+ul {
+    padding-left: 0rem !important;
+}
+
+.social li a {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.cross-btn {
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    right: 10px !important;
+    top: 10px !important;
+    z-index: 99;
+}
+
+.m-submit button {
+    background-color: #034045;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.loading-body{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)), 
+    url('./images/get-bg.jpg') no-repeat center center / cover !important;
+}
+
+@media screen and (min-width:1000px) {
+    .logo {
+        width: 100px;
+    }
+    .banner{
+        padding-top: 100px;
+    }
+    .intro-pic {
+        height: 450px !important;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    .nav-item a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .logo {
+        width: 60px;
+    }
+
+    .navbar-brand .logo.ms-3 {
+        margin-left: 0.45rem !important;
+    }
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.45rem !important;
+    }
+
+    .heading,
+    .sec-heading {
+        font-size: 1.45rem;
+        line-height: 1.3;
+        width: 100%;
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-wrap: anywhere;
+    }
+
+    .text-center p {
+        width: 100%;
+        max-width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-wrap: break-word;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+    .banner{
+        padding-top: 110px;
+    }
+
+    .mobile-section {
+        position: fixed;
+        z-index: 1000;
+        display: flex;
+        background-color: #034045;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
+        padding: 15px 0px;
+
+    }
+
+    .mobile-section .row {
+        --bs-gutter-x: 0;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        flex-wrap: nowrap;
+    }
+
+    .mobile-section .col-6 {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .mobile-btn a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .mobile-btn span {
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+    .footer-bottom{
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    .logo {
+        width: 100px;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+
+}
+.form-status {
+    margin: 16px 0 0;
+    color: #034045;
+    font-weight: 600;
+    text-align: center;
+}
+.get .form-status {
+    color: #fff;
+}
